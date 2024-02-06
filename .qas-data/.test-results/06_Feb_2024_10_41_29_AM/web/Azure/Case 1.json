@@ -1,0 +1,62 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://qas.qmetry.com/bank/",
+      "type": "TestStepPass",
+      "duration": 4250,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear id=txtUsername",
+      "type": "TestStepPass",
+      "duration": 635,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys Bob into id=txtUsername",
+      "type": "TestStepPass",
+      "duration": 634,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear id=txtPassword",
+      "type": "TestStepPass",
+      "duration": 618,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys ****** into id=txtPassword",
+      "type": "TestStepPass",
+      "duration": 677,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on id=btnLogin",
+      "type": "TestStepPass",
+      "duration": 698,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//button",
+      "type": "TestStepFail",
+      "duration": 1646,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Name: ElementClickInterceptedError\r\nMessage: element click intercepted: Element <button _ngcontent-dod-c0=\"\" class=\"btn btn-success\" style=\"border: 2px solid #56B653 !important;\">...</button> is not clickable at point (856, 38). Other element would receive the click: <div class=\"progress-selfhealing\">...</div>\n  (Session info: chrome=121.0.6167.140)\r\nStacktrace: ElementClickInterceptedError: element click intercepted: Element <button _ngcontent-dod-c0=\"\" class=\"btn btn-success\" style=\"border: 2px solid #56B653 !important;\">...</button> is not clickable at point (856, 38). Other element would receive the click: <div class=\"progress-selfhealing\">...</div>\n  (Session info: chrome=121.0.6167.140)\n\tat Object.throwDecodedError (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n\tat parseHttpResponse (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\http.js:565:13)\n\tat Executor.execute (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\http.js:491:26)\n\tat processTicksAndRejections (internal/process/task_queues.js:85:5)\n\tat async thenableWebDriverProxy.execute (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\webdriver.js:700:17)",
+          "type": "fail",
+          "duration": 1646,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+	"1707196224952": {
+		"date": "2024-02-06T05:10:24.943Z",
+		"testcase": "Case 1",
+		"command": "Click",
+		"status": "Failed",
+		"type": "xpath:position",
+		"failedele": "xpath=//button",
+		"newele": "css=button.btn.btn-success",
+		"rtype": "css",
+		"oldeArray": "",
+		"eArray": ""
+	},
+	"1707196226673": {
+		"date": "2024-02-06T05:10:26.667Z",
+		"testcase": "Case 1",
+		"command": "Click",
+		"status": "Failed",
+		"type": "css",
+		"failedele": "css=button.btn.btn-success",
+		"newele": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Name:'])[1]/preceding::button[1]",
+		"rtype": "xpath:neighbor",
+		"oldeArray": "",
+		"eArray": ""
+	},
+	"1707196228323": {
+		"date": "2024-02-06T05:10:28.316Z",
+		"testcase": "Case 1",
+		"command": "Click",
+		"status": "Failed",
+		"type": "xpath:neighbor",
+		"failedele": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Name:'])[1]/preceding::button[1]",
+		"newele": "xpath=//button[text()='Log Out']",
+		"rtype": "xpath:innerText",
+		"oldeArray": "",
+		"eArray": ""
+	}
+}

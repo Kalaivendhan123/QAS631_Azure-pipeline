@@ -1,0 +1,54 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://qas.qmetry.com/bank/",
+      "type": "TestStepPass",
+      "duration": 3910,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear id=txtUsername",
+      "type": "TestStepPass",
+      "duration": 608,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys Bob into id=txtUsername",
+      "type": "TestStepPass",
+      "duration": 620,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear id=txtPassword",
+      "type": "TestStepPass",
+      "duration": 584,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys ****** into id=txtPassword",
+      "type": "TestStepPass",
+      "duration": 659,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on id=btnLogin",
+      "type": "TestStepPass",
+      "duration": 637,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//button",
+      "type": "TestStepPass",
+      "duration": 647,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

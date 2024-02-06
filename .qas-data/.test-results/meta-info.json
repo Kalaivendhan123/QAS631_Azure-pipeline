@@ -1,0 +1,19 @@
+{
+  "reports": [
+    {
+      "name": "Azure",
+      "dir": ".qas-data/.test-results/06_Feb_2024_10_41_51_AM",
+      "startTime": 1707196311892
+    },
+    {
+      "name": "Azure",
+      "dir": ".qas-data/.test-results/06_Feb_2024_10_41_29_AM",
+      "startTime": 1707196289174
+    },
+    {
+      "name": "Azure",
+      "dir": ".qas-data/.test-results/06_Feb_2024_10_40_08_AM",
+      "startTime": 1707196208292
+    }
+  ]
+}
